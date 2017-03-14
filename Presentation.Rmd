@@ -1,0 +1,53 @@
+---
+title: "Presentation"
+author: "Martin Hill"
+date: "13 March 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##My New Slide
+Plain text
+
+*italicised text*
+
+**Bold text**
+
+`for(i %in% 1:10)`
+
+```{r cars, echo = TRUE, comment=""}
+summary(mtcars)
+```
+
+##My New Slide2
+```{r cars2, echo = TRUE, eval =FALSE}
+head(mtcars)
+```
+
+##My New Slide
+```{r cars3, fig.align='center', fig.cap='My Awsome Chart'}
+plot(mtcars$wt, mtcars$mpg, xlab = "Weight", ylab = "MPG")
+```
+
+***
+No Title
+
+##My Title
+### A top level subheading
+### A second level subheading
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+1. Item 1
+2. Item 2
+
+## Slide with R Output
+
+
+
+
